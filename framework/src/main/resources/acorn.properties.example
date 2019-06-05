@@ -1,0 +1,39 @@
+# Acorn properties file
+
+# Mandatory parameters when credentials are the parameters (which is the case of the following org types: DEV,TRIAL and SCRATCH_WITH_CREDENTIALS)
+# Do not add quotes.
+username=
+password=
+
+# specify the login or endpoint url here.
+loginEndpoint=https://acorn.sage.com/
+
+
+
+
+####################################################################################
+# Additional Parameters - Ignore the parameters below unless you need to change them
+####################################################################################
+
+# In milliseconds. Will default as 60000 if not provided.
+requestTimeout=
+
+
+
+####################################################################################
+#  Open Bug Parameters - These parameters are used to get the open bugs list from
+#   your bug tracker.  The following must be specified if you are using this feature.
+####################################################################################
+localAllOpenBugsFile=
+openBugQuery=
+forceBugsFileUpdate=false
+bugTrackerApiUsername=
+bugTrackerApiPassword=
+
+# The following values are examples.  Change these above to work with your project.
+# localAllOpenBugsFile=src/test/resources/AcornAllOpenBugs.csv
+# openBugQuery=project = acorn AND issuetype = \"Production Bug\" AND status in (\"Dev In Progress\", \"Ready for Dev\", Backlog, \"In Test\", Clarify, \"Ready for Template\") ORDER BY key ASC
+# forceBugsFileUpdate=false
+# bugTrackerApiUsername=bugTrackerAPIUser
+# bugTrackerApiPassword=bugTrackerAPIPassword
+

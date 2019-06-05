@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="default" parallel="false">
+  <listeners>
+  	<listener class-name="add_your_custom_test_listener_here_to_buffer_verify_statements" />
+  </listeners>
+</suite>
